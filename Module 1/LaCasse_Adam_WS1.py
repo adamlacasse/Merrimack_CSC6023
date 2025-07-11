@@ -50,8 +50,7 @@ def MCSS_2(a):
 
     return largest, start_idx, end_idx
 
-# Test MCSS_2 function
-vector = generate_random_vector()
 max_sum, start, end = MCSS_2(vector)
-print(f"MCSS_2 result: Maximum sum = {max_sum}, Start index = {start}, End index = {end}")
+print(f"MCSS_2 result: Maximum sum = {max_sum}, Start index: {start}, End index: {end}")
 print(f"Subarray: {vector[start:end+1]}")
+
